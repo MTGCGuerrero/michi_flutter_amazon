@@ -3,7 +3,6 @@
 import 'dart:developer';
 import 'dart:io';
 import 'package:amazon/controller/provier/rating_provider/rating_provider.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
@@ -12,8 +11,6 @@ import 'package:uuid/uuid.dart';
 import '../../../constants/common_functions.dart';
 import '../../../constants/constants.dart';
 import '../../../model/review_model.dart';
-import '../../../model/user_product_model.dart';
-
 class RatingServices {
   static Future getImages({required BuildContext context}) async {
     List<File> selectedImages = [];

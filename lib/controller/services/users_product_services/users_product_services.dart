@@ -6,12 +6,10 @@ import 'package:amazon/constants/constants.dart';
 import 'package:amazon/model/user_product_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:uuid/uuid.dart';
 
 import '../../../constants/common_functions.dart';
 import '../../../model/product_model.dart';
-import '../../../model/review_model.dart';
 
 class UsersProductService {
   static Future<List<ProductModel>> getProducts(String productName) async {
@@ -207,7 +205,7 @@ class UsersProductService {
     required UserProductModel productModel,
   }) async {
     try {
-      Uuid uuid = Uuid();
+      Uuid uuid = const Uuid();
       await firestore
           .collection('Orders')
           .doc(auth.currentUser!.phoneNumber)

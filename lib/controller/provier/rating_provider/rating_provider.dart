@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:amazon/controller/services/rating_services/rating_services.dart';
-import 'package:amazon/model/user_product_model.dart';
 import 'package:flutter/material.dart';
 
 class RatingProvider extends ChangeNotifier {

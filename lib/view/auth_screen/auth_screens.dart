@@ -54,8 +54,8 @@ class _AuthScreenState extends State<AuthScreen> {
                   height * 0.02,
                   0,
                 ),
-                // SignIn(width, height, textTheme, context),
-                // CreateAccount(width, height, textTheme, context),
+                SignIn(width, height, textTheme, context),
+                CreateAccount(width, height, textTheme, context),
 
                 Builder(builder: (context) {
                   if (inLogin) {

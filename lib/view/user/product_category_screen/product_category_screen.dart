@@ -1,4 +1,3 @@
-// ignore_for_file: use_build_context_synchronously
 
 import 'dart:developer';
 
@@ -12,7 +11,6 @@ import 'package:page_transition/page_transition.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import '../../../controller/provier/product_by_category_provider/product_by_category_provider.dart';
-import '../../../controller/services/product_services/product_services.dart';
 import '../../../controller/services/rating_services/rating_services.dart';
 import '../../../model/user_product_model.dart';
 import '../../../utils/colors.dart';
