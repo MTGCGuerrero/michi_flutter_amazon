@@ -3,7 +3,6 @@ import 'package:amazon/controller/services/auth_services/auth_services.dart';
 import 'package:amazon/view/auth_screen/auth_screens.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 import '../../utils/colors.dart';
 
