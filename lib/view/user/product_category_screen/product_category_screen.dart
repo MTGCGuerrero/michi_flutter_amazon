@@ -227,7 +227,7 @@ class _ProductCategoryScreenState extends State<ProductCategoryScreen> {
             //     color: amber,
             //   ),
             // );
-            return SizedBox();
+            return const SizedBox();
           } else {
             if (usersProductProvider.products.isEmpty) {
               return const Center(

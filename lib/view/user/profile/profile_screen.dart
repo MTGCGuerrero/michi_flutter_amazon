@@ -1,5 +1,4 @@
 import 'package:amazon/constants/common_functions.dart';
-import 'package:amazon/controller/provier/users_product_provider/users_product_provider.dart';
 import 'package:amazon/controller/services/users_product_services/users_product_services.dart';
 import 'package:amazon/model/product_model.dart';
 import 'package:amazon/model/user_product_model.dart';

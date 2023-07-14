@@ -2,8 +2,6 @@ import 'package:amazon/controller/services/user_data_crud_services/user_data_CRU
 import 'package:amazon/model/address_model.dart';
 import 'package:amazon/view/user/address_screen/widget/address_screen_textField.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:uuid/uuid.dart';
 
 import '../../../constants/common_functions.dart';
@@ -151,7 +149,7 @@ class _AddressScreenState extends State<AddressScreen> {
               ),
               ElevatedButton(
                   onPressed: () {
-                    Uuid uuid = Uuid();
+                    Uuid uuid = const Uuid();
                     String docID = uuid.v1();
                     AddressModel addressModel = AddressModel(
                       name: nameController.text.trim(),

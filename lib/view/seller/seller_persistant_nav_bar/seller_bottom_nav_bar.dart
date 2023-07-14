@@ -1,9 +1,4 @@
 import 'package:amazon/view/seller/inventory/inventory_screen.dart';
-import 'package:amazon/view/user/cart/cart_screen.dart';
-import 'package:amazon/view/user/home/home_screen.dart';
-import 'package:amazon/view/user/menu/menu_screen.dart';
-import 'package:amazon/view/user/profile/profile_screen.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar_v2/persistent-tab-view.dart';
 import '../../../utils/colors.dart';
@@ -20,7 +15,7 @@ class _SellerBottomNavBarState extends State<SellerBottomNavBar> {
   PersistentTabController controller = PersistentTabController(initialIndex: 0);
 
   List<Widget> _buildScreens() {
-    return [InventoryScreen(), MonitorScreen()];
+    return [const InventoryScreen(), const MonitorScreen()];
   }
 
   List<PersistentBottomNavBarItem> _navBarsItems() {

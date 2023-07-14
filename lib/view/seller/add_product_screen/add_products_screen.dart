@@ -353,7 +353,7 @@ class ProductImageBanner extends StatelessWidget {
                 color: greyShade3,
               ),
             ),
-            padding: EdgeInsets.all(5),
+            padding: const EdgeInsets.all(5),
             child: CarouselSlider(
               carouselController: CarouselController(),
               options: CarouselOptions(

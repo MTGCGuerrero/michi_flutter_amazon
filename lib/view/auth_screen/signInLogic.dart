@@ -10,7 +10,6 @@ import 'package:amazon/view/user/user_persistant_nav_bar/user_bottom_nav_bar.dar
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
 import '../../controller/services/auth_services/auth_services.dart';
-import '../user/home/home_screen.dart';
 
 class SignInLogic extends StatefulWidget {
   const SignInLogic({super.key});

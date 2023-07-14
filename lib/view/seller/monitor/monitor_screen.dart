@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:amazon/constants/common_functions.dart';
 import 'package:amazon/controller/provier/product_provider/product_provider.dart';
@@ -130,7 +129,7 @@ class _MonitorScreenState extends State<MonitorScreen> {
                             builder: (context, snapshot) {
                               if (snapshot.hasData) {
                                 if (snapshot.data!.isEmpty) {
-                                  return SizedBox();
+                                  return const SizedBox();
                                 } else {
                                   return Container(
                                     height: height * 0.3,
@@ -328,7 +327,7 @@ class _MonitorScreenState extends State<MonitorScreen> {
                                   style: textTheme.bodyMedium,
                                 );
                               } else {
-                                return SizedBox();
+                                return const SizedBox();
                               }
                             });
                       });

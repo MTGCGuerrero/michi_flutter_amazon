@@ -1,8 +1,6 @@
 import 'package:amazon/controller/services/users_product_services/users_product_services.dart';
 import 'package:amazon/model/user_product_model.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:page_transition/page_transition.dart';
 
 import '../../../model/product_model.dart';
